@@ -1,93 +1,50 @@
-Johnny Coder
-============
+Nyan Lin Tun
+======
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
+#### a developer, create websites, love Blockchain and mining tech, craft mobile apps, devise solutions, and play with Sketch learning about design.
+###### [ [konyan.me](https://konyan.me) ] . [ devkonyan@gmail.com] . [ +95 9 451 560 566 ]
+
+
+Experience
+---------
+**Independent Researcher, Yale University** (2012-present, New Haven CT)
+
+- Data analysis and simulation in Python and MATLAB, and instrument control in C++. Designed and executed experiments across four projects and managed several undegraduate students.
+
+**MCAT Instructor, Kaplan Test Prep** (2011-2012, New Haven CT)
+
+- Planned and delivered lectures on core content in undergraduate Physics, Chemistry and Biology to medium-sized groups of undergraduates.
+
+Skills
+------
+**Programming:** Python, MATLAB, SQL, R, git, HTML/CSS
+
+**Python SciPy Tools:** Pandas, Numpy, Matplotlib, Scikit-learn
+
+Awards
+------
+- **Sterling Prize Fellowship**, Yale University (2013). Awarded to 30 out of 10,500 applicants.
+- **IU Founders Scholar**, Indiana University (2012)
+- **Baccalaureate with Highest Distinction**, Indiana University (2012). Granted to 5 students out of 498 in the class.
+
+Projects
+--------
+**[*Evening Sessions: Explorations in Data Science and Python* Blog](http://sdsawtelle.github.io/blog/output/index.html)** (2015-present)
+
+- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+
 
 Education
 ---------
+**Ph.D. program in Applied Physics, Yale University** (2012-present)
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+- Research on transport in metal nanostructures.
+- Coursework in physics, engineering, and statistics.
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+**B.S. in Physics, Indiana University** (2008-2011)
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+- Baccalaureate with Departmental Honors and Highest Distinction, 3.98/4.0 GPA
 
-    *Minor: Awesomeology*
+**MOOCs** (ongoing)
 
-Experience
-----------
-
-**Your Most Recent Work Experience:**
-
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
-
-* First item
-
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
-
-**That Other Job You Had**
-
-Also with a short description.
-
-Technical Experience
---------------------
-
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+- Machine Learning (Stanford, Andrew Ng)
