@@ -1,8 +1,10 @@
 Hi, I'm Nyan Lin Tun
 ======
+<br>
+<br>
 <p align="center">
- <a href="https://github.com/konyan/todo-project">
-    <img src="./images/profile.png" alt="Logo" width="200" height="auto">
+ <a href="https://github.com/konyan/konyan">
+    <img src="https://raw.githubusercontent.com/konyan/konyan/master/images/profile.png" alt="Logo" width="200" height="auto">
   </a>
   <h3 align="center">
    a developer, create websites, love Blockchain and mining tech, <br> craft mobile apps, devise solutions, <br> and play with Sketch learning about design
