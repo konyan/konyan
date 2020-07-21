@@ -1,50 +1,22 @@
-Nyan Lin Tun
+Hi, I'm Nyan Lin Tun
 ======
+<p align="center">
+ <a href="https://github.com/konyan/todo-project">
+    <img src="./images/profile.png" alt="Logo" width="200" height="auto">
+  </a>
+  <h3 align="center">
+   a developer, create websites, love Blockchain and mining tech, <br> craft mobile apps, devise solutions, <br> and play with Sketch learning about design
+  </h3>
+</p>
 
-#### a developer, create websites, love Blockchain and mining tech, craft mobile apps, devise solutions, and play with Sketch learning about design.
-###### [ [konyan.me](https://konyan.me) ] . [ devkonyan@gmail.com] . [ +95 9 451 560 566 ]
-
-
-Experience
----------
-**Independent Researcher, Yale University** (2012-present, New Haven CT)
-
-- Data analysis and simulation in Python and MATLAB, and instrument control in C++. Designed and executed experiments across four projects and managed several undegraduate students.
-
-**MCAT Instructor, Kaplan Test Prep** (2011-2012, New Haven CT)
-
-- Planned and delivered lectures on core content in undergraduate Physics, Chemistry and Biology to medium-sized groups of undergraduates.
-
-Skills
-------
-**Programming:** Python, MATLAB, SQL, R, git, HTML/CSS
-
-**Python SciPy Tools:** Pandas, Numpy, Matplotlib, Scikit-learn
-
-Awards
-------
-- **Sterling Prize Fellowship**, Yale University (2013). Awarded to 30 out of 10,500 applicants.
-- **IU Founders Scholar**, Indiana University (2012)
-- **Baccalaureate with Highest Distinction**, Indiana University (2012). Granted to 5 students out of 498 in the class.
-
-Projects
---------
-**[*Evening Sessions: Explorations in Data Science and Python* Blog](http://sdsawtelle.github.io/blog/output/index.html)** (2015-present)
-
-- Authored a series of articles covering a wide variety of topics and tools related to pure Python programming, data science and statistics.
+<p align="center">
+	<a href="https://github.com/konyan"><img src="https://img.shields.io/github/followers/konyan.svg?label=GitHub&style=social" alt="GitHub"></a>
+	<a href="https://twitter.com/devkonyan"><img src="https://img.shields.io/twitter/follow/devkonyan?label=Twitter&style=social" alt="Twitter"></a>
+	<a href="https://www.linkedin.com/in/nyanlintun"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+</p>
 
 
-Education
----------
-**Ph.D. program in Applied Physics, Yale University** (2012-present)
-
-- Research on transport in metal nanostructures.
-- Coursework in physics, engineering, and statistics.
-
-**B.S. in Physics, Indiana University** (2008-2011)
-
-- Baccalaureate with Departmental Honors and Highest Distinction, 3.98/4.0 GPA
-
-**MOOCs** (ongoing)
-
-- Machine Learning (Stanford, Andrew Ng)
+<details>
+  <summary><b>:computer: 2020 goal</b></summary>
+  I want to start as a remote Front-End Developer where I can take on collaborative team leadership responsibilities, and gain experience with architecture and project development and management.
+</details>
