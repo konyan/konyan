@@ -1,9 +1,7 @@
 <h5 align="center">Hi, my name is</h1>
 <h1 align="center">NYAN LIN TUN</h1>
 
-<p align="left">
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Mono&pause=1000&color=6F1AB6&width=435&lines=I+craft+ideas+to+App)](https://git.io/typing-svg)
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Mono&size=32&pause=1000&color=6F1AB6&center=true&vCenter=true&repeat=false&width=900&lines=I+craft+ideas+to+App)](https://git.io/typing-svg)
 
 <br>
 <br>
@@ -24,9 +22,9 @@
 
 <details>
   <summary><b>:computer: 2023 goal</b></summary>
-  - 🌱 life and work balance
-  - 🔭 learn new technology about blockchain and web3
-  - 👯 try to start own project and making more open source to contribute community
+  - 🌱 life and work balance <br>
+  - 🔭 learn new technology about blockchain and web3 <br>
+  - 👯 try to start own project and making more open source to contribute community <br>
 </details>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=konyan" alt="konyan" /> </p>
