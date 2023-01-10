@@ -389,6 +389,22 @@ section .location {
   background: #dfeaf0;
 }
 
+.techs {
+  list-style: none;
+}
+
+.techs > li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
 .highlights {
   margin: 1em 0 0 0;
 }
@@ -641,7 +657,7 @@ section .location {
 }
 
 @media print {
-  #profiles a:not(.hide-href-print)::after{
+  #profiles a:not(.hide-href-print)::after {
     content: " (" attr(href) ") ";
   }
   #resume {

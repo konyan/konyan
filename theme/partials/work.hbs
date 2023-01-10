@@ -50,6 +50,13 @@
         {{#if summary}}
         <div class="summary">{{paragraphSplit summary}}</div>
         {{/if}}
+        {{#if techs.length}}
+          <ul class="techs">
+            {{#each techs}}
+            <li>{{.}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
         {{#if highlights.length}}
         <ul class="highlights">
           {{#each highlights}}
