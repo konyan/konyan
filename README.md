@@ -1,7 +1,9 @@
 <h5 align="center">Hi, my name is</h1>
-<h5 align="center">NYAN LIN TUN</h1>
+<h1 align="center">NYAN LIN TUN</h1>
 
+<p align="left">
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Mono&pause=1000&color=6F1AB6&width=435&lines=I+craft+ideas+to+App)](https://git.io/typing-svg)
+</p>
 
 <br>
 <br>
@@ -10,7 +12,7 @@
     <img src="https://raw.githubusercontent.com/konyan/konyan/master/images/profile.png" alt="Logo" width="200" height="auto">
   </a>
   <h3 align="center">
-   a developer, create websites, love Blockchain and mining tech, <br> craft mobile apps, devise solutions, <br> and play with Sketch learning about design
+   a developer, create websites, love Blockchain and Web3, <br> craft mobile apps, devise solutions, <br> and play with Sketch learning about design
   </h3>
 </p>
 
@@ -22,7 +24,9 @@
 
 <details>
   <summary><b>:computer: 2023 goal</b></summary>
-  Feather
+  - 🌱 life and work balance
+  - 🔭 learn new technology about blockchain and web3
+  - 👯 try to start own project and making more open source to contribute community
 </details>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=konyan" alt="konyan" /> </p>
