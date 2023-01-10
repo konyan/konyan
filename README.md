@@ -1,4 +1,7 @@
-# Hi, I'm Nyan Lin Tun
+<h5 align="center">Hi, my name is</h1>
+<h5 align="center">NYAN LIN TUN</h1>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Mono&pause=1000&color=6F1AB6&width=435&lines=I+craft+ideas+to+App)](https://git.io/typing-svg)
 
 <br>
 <br>
@@ -18,6 +21,8 @@
 </p>
 
 <details>
-  <summary><b>:computer: 2020 goal</b></summary>
-  I want to start as a remote Front-End Developer where I can take on collaborative team leadership responsibilities, and gain experience with architecture and project development and management.
+  <summary><b>:computer: 2023 goal</b></summary>
+  Feather
 </details>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=konyan" alt="konyan" /> </p>
