@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "theme": "stackoverflow"
+  },
+  "basics": {
+    "name": "NYAN LIN TUN",
+    "label": "Senior Front-End Engineer",
+    "image": "",
+    "summary": "I am experience developer who constantly seeks out innovation solutions to every problems and worked at both product-based startup and service- based software company. My commitment to critical thinking and attention to detail have gotten me to where I am today. I love building things, writes and debugs coding, solves problems, and also passionate about design, startups, and technology. I create websites, love Blockchain and mining tech, craft mobile apps, devise solutions, and play with Sketch learning about design.",
+    "website": "https://konyan.me",
+    "email": "devkonyan@gmail.com",
+    "location": {
+      "city": "Thailand",
+      "countryCode": "TH"
+    },
+    "profiles": [
+      {
+        "username": "konyan",
+        "url": "https://www.linkedin.com/in/nyanlintun/",
+        "network": "linkedin"
+      },
+      {
+        "url": "https://github.com/konyan",
+        "username": "konyan",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2016-12-12",
+      "startDate": "2013-02-12",
+      "area": "Mathematics",
+      "studyType": "Bachelors in",
+      "institution": "The University of East Yangon"
+    },
+    {
+      "endDate": "2012-12-12",
+      "startDate": "2010-02-12",
+      "area": "Information Technology",
+      "studyType": "Diploma in",
+      "institution": "KMD"
+    }
+  ],
+  "references": [
+    {
+      "reference": "Nyan is an effective leader and a natural mentor. They have managed and led 3 projects, including Aya Payment system as Lead Engineer Role, and have consistently motivated and guided their team members to deliver their best work. Nyan possess a great ability to work with other departments, including design and project management, and have the ability to find a balance between meeting the client's needs and maintaining high development standards.I highly recommend Nyan for the position of Front-end Team Lead and I am confident that they will continue to make a significant contribution to the success of any organization they work with.",
+      "name": "Aung Sithu Kyaw, Project Owner, Aya Bank's Innovation Lab"
+    },
+    {
+      "reference": "Nyan has been a valuable member of the software development team at NexIdea AI, and I am confident that they would make an excellent Senior Software Engineer.With 5 years of experience in the industry, Nyan has developed a strong skill set in technologies such as Java, Spring Boot and Javascript. They have worked on a diverse range of projects, including Luggage Managment Platform as Senior Software Engineer, and have demonstrated a capacity to deliver high-quality work on time and within budget. He is a phenomenal hacker and a true team player. Highly recommended!",
+      "name": "Paing Soe Aung, NexIdea, AI."
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML / CSS3 / SCSS / LESS",
+        "Javascript / Typescript",
+        "React / Next",
+        "Redux / Apollo",
+        "Tailwind / Styled Components",
+        "Angular"
+      ],
+      "level": "Advanced",
+      "name": "Frontend Development"
+    },
+    {
+      "keywords": [
+        "VsCode",
+        "Webpack / Babel",
+        "Nx Monorepo",
+        "Linter / Prettier",
+        "Yarn"
+      ],
+      "level": "Advanced",
+      "name": "Tooling"
+    },
+    {
+      "keywords": [
+        "Node / Express / SailJS",
+        "Ruby / RoR",
+        "Postgres / MongoDB",
+        "Redis",
+        "Serverless / Firebase",
+        "Java / Spring Boot"
+      ],
+      "level": "intermediate",
+      "name": "Backend Development"
+    },
+    {
+      "keywords": ["AWS", "Digital Ocean", "Hasura", "Docker", "Linux / Bash"],
+      "level": "Beginner",
+      "name": "Devops"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Firebase Hackathon",
+      "awarder": "Participant"
+    },
+    {
+      "title": "WaveMoney Mobile Hackathon",
+      "awarder": "First Prize Winner"
+    },
+    {
+      "title": "Telenor Accelerator Program",
+      "awarder": "Winner"
+    },
+    {
+      "title": "KOICA Entrepreneurship ",
+      "awarder": "Winner"
+    }
+  ],
+  "work": [
+    {
+      "techs": [
+        "React,",
+        "React Native EXPO/CLI",
+        "Typescript",
+        "JEST(React)",
+        "Nx MonoRepo",
+        "Strapi Headless CMS",
+        "Docker",
+        "Azure B2COauth2",
+        "GraphQL API",
+        "Hasura Service",
+        "Firebase"
+      ],
+      "website": "https://sevenpeakssoftware.com/",
+      "name": "7peaksSoftware",
+      "location": "Thailand",
+      "position": "Senior Front-End Developer",
+      "startDate": "2021-12-05",
+      "highlights": [
+        "Developed Dentist App with React Native for a new feature, improving customer adoption and retention to app by 25% using push notification and deep link (universal Linking) in App using Firebase.",
+        "Designed multiple dynamic and browser compatible page and customer components for internal company using Tailwind, Story book, React, and NX mono-repo.",
+        "Migrate old WordPress website from React+Strapi Headless CMS with GraphQL and using Git action CI/CD flow setup and deploy server, storage and CDN routing using AWS cloud service. Improving customer engagement and adoption by 10%.",
+        "Lead the development of a new mobile application using Expo React Native, resulting in a 50% increase of development time and cost effective for early startup. Implemented features to support all platform both web and mobile(android, iOS) such as Design, push-notification and analytics using firebase, B2C Azure Authentication and Hasura as a data sources.",
+        "Mentored and Supported developers on best practices for building and testing with Jest to cover all code bas using Snoar Cloud Platform."
+      ]
+    },
+    {
+      "techs": [
+        "React,",
+        "React Native CLI",
+        "Typescript",
+        "Docker",
+        "2C2P payment integration",
+        "NODE RED",
+        "Core Banking",
+        "AWS Cloud Service",
+        "Sail JS",
+        "ExpressJS",
+        "MongoDB",
+        "Firebase"
+      ],
+      "summary": "",
+      "website": "https://platform.blockbid.io",
+      "name": "Aya Innovation Lab",
+      "location": "Myanmar",
+      "position": "Front-End Team Lead",
+      "startDate": "2020-08-04",
+      "endDate": "2021-10-01",
+      "highlights": [
+        "Lead Team of 5 engineer undertaking the software development of internal appointment management system to control and track covid-19 outbreak",
+        "Prioritized and delegated tasks to developer and third party vendor who integrate Aya Pay Payment Applications.",
+        "Mentor team members and provide technical guidance including code review, testing, and Continuous integration to ensure the quality and timeliness of deliverables.",
+        "Built innovative micro-services and Web Services Architecture(REST), Utilized React and Redux for state management in large-scale applications.",
+        "Engineered modern cloud infrastructure to store millions of client data points with full consideration for modern info-security.",
+        "Support Core Banking with testing and engineering process and ssisted in the debugging and troubleshooting of issues in production environments, Setup Monitoring daily API and Transaction Load with clock watch to notify the hight traffic load."
+      ]
+    },
+    {
+      "techs": [
+        "React,",
+        "Java / Spring boot / Hibernate",
+        "Typescript",
+        "Docker",
+        "POSTGRE SQL",
+        "Red HAT Server",
+        "AWS Cloud Service",
+        "Angular 6",
+        "RESTFUL API development / documentation"
+      ],
+      "highlights": [
+        "Learn and built an outstanding and dynamic team of software engineers and developers which significantly boosted the overall success of the organization.",
+        "Planned and engineered RESTful web services to manipulate dynamic datasets and Implemented new features and functionality using Spring and Hibernate",
+        "Experience in setup and testing local Payment Platform and build multi-transaction projects and collaborated with cross-functional teams to ensure project deliverables were met on time",
+        "Checked client code for bugs and weaknesses using test automation tools and improved code quantity and contributed to the design and development of a custom framework used by the company"
+      ],
+      "summary": "",
+      "location": "Myanmar",
+      "website": "https://nexidea.ai/",
+      "name": "NexIdea AI Company",
+      "position": "Senior Software Engineer",
+      "startDate": "2019-01-01",
+      "endDate": "2021-08-01"
+    },
+    {
+      "techs": [
+        "React,",
+        "PHP / Laravel",
+        "Javascript",
+        "FIGMA",
+        "RESTFUL API development / documentation",
+        "JIRA",
+        "Code Automation with CYPRESS",
+        "Firebase"
+      ],
+      "highlights": [
+        "Orchestrated Mahar Video Streaming project within strict timeframes and implements Mobile Payment flow with Local Operators by solving complex problems and working closely with senior leaders.",
+        "Developed and initiated Lodggy Hotel Booking projects, including managing costs, schedule, and communication with the Product owner and drove team success through shared vision and recognition of quality performance.",
+        "Collaborated with stockholders during the development process for ABC Payment Application and creative dynamic service rendering system at mobile application and reduce continue updating an application.",
+        "Implemented dynamics RESTFul API that handles App UI from the server-side. - Initiated and Implement third-party payment systems like 2C2P, MPU, and Strip International payment."
+      ],
+      "summary": "",
+      "website": "https://www.comquas.com/",
+      "name": "Comquas Company",
+      "position": "Software Engineer",
+      "startDate": "2017-04-01",
+      "endDate": "2018-08-01",
+      "location": "Myanmar"
+    },
+    {
+      "techs": [
+        "Angular,",
+        "HTML / CSS3 / JQuery",
+        "Javascript",
+        "SKETCH / Adobe XD",
+        "Android Native Development",
+        "Firebase"
+      ],
+      "highlights": [
+        "Collaborated with team members during development processes to confirm creative proposals and design best practices for Travel&Tour solutions.",
+        "Took concepts and produced design mockups and prototypes to strengthen designs, enhance user experiences and improve site interactions.",
+        "Developed user-oriented visuals and features using front-end languages, including HTML, Angular and CSS, to increase site traffic and site performance under 3 seconds and analysis and measurable SEO best practice.",
+        "Crafted SEO strategy and intuitive interface for GoP tour site to achieve prominent rankings across top browser platforms, including Google and Facebook pixels.",
+        "Utilized comprehensive knowledge of the mobile landscape, emerging technologies, and innovations to remain on cutting edge of the Android market."
+      ],
+      "summary": "",
+      "website": "http://www.eff.org",
+      "name": "GoP Travel Tour Company",
+      "position": "Front-End Developer",
+      "startDate": "2014-05-01",
+      "endDate": "2017-01-01"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading / Writing"
+    },
+    {
+      "name": "Open Source"
+    }
+  ]
+}

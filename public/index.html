@@ -1,0 +1,1273 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>NYAN LIN TUN</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  color: #40484f;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.46153846;
+  text-align: left;
+}
+
+p {
+  display: block;
+}
+
+a {
+  color: #0095ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0c65a5;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 1.3em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.67rem;
+}
+
+h3 {
+  font-size: 1.27rem;
+}
+
+em {
+  color: #757575;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* main container */
+
+#resume {
+  padding: 1.5rem;
+}
+
+/* every section wrapper */
+
+.section {
+  margin-bottom: 1rem;
+}
+
+section .location {
+  margin-right: 0.5em;
+  color: #606d76;
+  font-weight: 700;
+}
+
+#contact {
+  margin-top: 0.5rem;
+}
+
+#profiles .item {
+  padding: 0;
+}
+
+#header > #profiles,
+#header > #contact,
+#skills,
+#languages,
+#interests {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+#header > div {
+  line-height: 1.5;
+}
+
+#header > div > div {
+  margin-right: 1.2em;
+}
+
+#header h1.name {
+  font-size: 2.8rem;
+  font-weight: 100;
+  line-height: 100%;
+}
+
+#header h2.label {
+  color: #202931;
+  font-size: 1.47rem;
+  font-weight: 300;
+}
+
+#header .image {
+  width: 11em;
+  float: right;
+  border-radius: 4px;
+}
+
+.main-summary {
+  background: #f1f8ff;
+  padding: 1.2em 1em;
+  margin-top: 1rem;
+}
+
+.main-summary p {
+  margin: 0;
+}
+
+.section-title {
+  display: inline-block;
+  background: #fff;
+  padding: 0 1em 0.3em 0;
+  color: #ff6d1f;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.section > header {
+  position: relative;
+}
+
+.fa {
+  margin-right: 0.25em;
+}
+
+.section > header::after {
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  height: 1px;
+  background: #ccc;
+  content: "";
+  width: 100%;
+  z-index: -100;
+  display: block;
+}
+
+.section.main-summary > section {
+  margin: 0;
+}
+
+.section > section > header {
+  font-size: 1.38rem;
+  position: relative;
+  margin-top: 0.7em;
+}
+
+.section > section > header:first-of-type {
+  margin: 0;
+}
+
+.section > section > header .space-left {
+  position: absolute;
+  left: -1.56rem;
+  top: 5px;
+  color: #aaa;
+  line-height: 1;
+  opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+  display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+  font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+  content: "at ";
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+  color: #606d76;
+  font-weight: 400;
+}
+
+.section header .date {
+  display: block;
+  font-size: 1rem;
+  padding: 0.1em 0;
+  color: #606d76;
+  font-weight: 400;
+}
+
+.keywords,
+.courses {
+  margin: 0.5em 0;
+}
+
+.keywords li,
+.courses li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.keywords li:hover,
+.courses li:hover {
+  background: #dfeaf0;
+}
+
+.techs {
+  list-style: none;
+}
+
+.techs > li {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: 0.9rem;
+  line-height: 1;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.highlights {
+  margin: 1em 0 0 0;
+}
+
+.highlights > li > p {
+  margin-bottom: 0.5em;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.gpa {
+  clear: both;
+  padding-bottom: 0.5em;
+}
+
+.fa.social {
+  font-size: 1.1em;
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+  color: #dd4b39;
+}
+
+.tumblr {
+  color: #32506d;
+}
+
+.foursquare {
+  color: #0072b1;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.pinterest {
+  color: #cb2027;
+}
+
+.dribbble {
+  color: #ea4c89;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.soundcloud {
+  color: #ff3a00;
+}
+
+.wordpress {
+  color: #21759b;
+}
+
+.youtube {
+  color: #bb0000;
+}
+
+.github {
+  color: #171515;
+}
+
+.stack-overflow {
+  color: #828386;
+  position: relative;
+}
+
+.flickr {
+  color: #ff0084;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.hacker-news {
+  color: #ff6600;
+}
+
+.stack-overflow::after {
+  position: absolute;
+  left: 0;
+  content: "\f16c";
+  color: #f68a1f;
+  overflow: hidden;
+  height: 100%;
+}
+
+.telegram {
+  color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+  width: 15em;
+  padding: 0 0.5em 0.5em 0;
+  border-bottom: none;
+}
+
+#skills .item {
+  width: 16em;
+}
+
+#skills .item .keywords {
+  width: 100%;
+}
+
+/* Skill chart */
+
+.level {
+  margin-bottom: 0.5em;
+}
+
+.level em {
+  padding-left: 0.2em;
+}
+
+.level .bar {
+  border: 1px solid #ddd;
+  display: block;
+  width: 10em;
+  height: 5px;
+  position: relative;
+}
+
+.level .bar::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  background: black;
+  height: 5px;
+}
+
+.level.beginner .bar::after {
+  background: #eb5f51;
+  width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+  background: #ffdf1f;
+  width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+  background: #5cb85c;
+  width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+  background: #59c596;
+  width: 10em;
+}
+
+#references .item {
+  padding-left: 0.5em;
+  border-left: 5px solid #ff6d1f;
+}
+
+.section > section > section {
+  margin-bottom: 1rem;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.display {
+  display: block;
+  opacity: 1 !important;
+}
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+  #resume {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .section header .date {
+    float: right;
+    font-weight: 600;
+    color: #000;
+  }
+}
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+  li {
+    margin-left: 1.5em;
+  }
+  #resume {
+    width: 820px;
+    margin: 2rem auto;
+  }
+  .section > section > header .space-left {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .section > section:not(.main-summary) {
+    margin-left: 1.67rem;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "| ";
+  }
+  .header-left {
+    float: left;
+    width: 70%;
+    word-break: normal;
+  }
+  .section header .date {
+    padding: 0.2em;
+  }
+  .display {
+    display: none;
+  }
+  .display:not(.none) {
+    display: block;
+  }
+}
+
+@media print {
+  #profiles a:not(.hide-href-print)::after {
+    content: " (" attr(href) ") ";
+  }
+  #resume {
+    margin: 0.1em;
+    padding: 0.1em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.25;
+  }
+  @page {
+    margin: 1cm 1.4cm;
+  }
+  .item-count {
+    display: none;
+  }
+  .company::before,
+  .institution::before,
+  .organization::before,
+  .awarder::before {
+    content: "at ";
+  }
+  .main-summary {
+    padding: 0;
+    background: transparent;
+  }
+  .section {
+    margin: 0.8rem 0;
+    padding: 0;
+  }
+  .section header {
+    padding-bottom: 0.15rem;
+  }
+  .section .location {
+    padding-bottom: 0.15rem;
+  }
+  .section > section > section {
+    margin: 0 0 1em 0;
+  }
+  .section > section > section:last-of-type {
+    margin: 0;
+  }
+  .stack-overflow::after {
+    content: "";
+  }
+  .fa.social {
+    color: #828386;
+  }
+  ul {
+    margin-top: 0.4em;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  ul.keywords li,
+  ul.courses li {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    background: transparent;
+  }
+  ul.keywords li::after,
+  ul.courses li::after {
+    padding: 0 0 0 0.1rem;
+    content: " |";
+  }
+  ul.keywords::before,
+  ul.courses::before {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  #skills .item {
+    width: calc(100% / 3);
+    padding: 0;
+  }
+  .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  ul.keywords::before {
+    content: "Skills acquired: ";
+  }
+  #skills .keywords::before {
+    content: none;
+  }
+  .section p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.courses::before {
+    content: "Major courses: ";
+  }
+  ul.keywords li:last-of-type::after,
+  ul.courses li:last-of-type::after {
+    content: "";
+  }
+  .level em {
+    font-style: normal;
+    padding: 0.1em 0;
+  }
+  .level .bar {
+    display: none;
+  }
+  #profiles .item {
+    padding: 0;
+  }
+  .item.display {
+    display: block;
+    opacity: 1 !important;
+  }
+  .fa-map-marker-alt:before {
+    padding-left: 0.1em;
+  }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">NYAN LIN TUN</h1>
+    			<h2 class="label">Senior Front-End Engineer</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="city">Thailand,</span>
+    			<span class="countryCode">TH</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fas fa-external-link-alt"></span>
+    				<a class="hide-href-print" target="_blank" target="_blank" href="https://konyan.me">https://konyan.me</a>
+    			</div>
+    			<div class="email">
+    				<span class="far fa-envelope"></span>
+    				<a class="hide-href-print" href="mailto:devkonyan@gmail.com">devkonyan@gmail.com</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/nyanlintun/">konyan</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/konyan">konyan</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section">
+    		<section class="main-summary">
+    			<div><p><p>I am experience developer who constantly seeks out innovation solutions to every problems and worked at both product-based startup and service- based software company. My commitment to critical thinking and attention to detail have gotten me to where I am today. I love building things, writes and debugs coding, solves problems, and also passionate about design, startups, and technology. I create websites, love Blockchain and mining tech, craft mobile apps, devise solutions, and play with Sketch learning about design.</p></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Frontend Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML / CSS3 / SCSS / LESS</li>
+    				<li>Javascript / Typescript</li>
+    				<li>React / Next</li>
+    				<li>Redux / Apollo</li>
+    				<li>Tailwind / Styled Components</li>
+    				<li>Angular</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Tooling
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>VsCode</li>
+    				<li>Webpack / Babel</li>
+    				<li>Nx Monorepo</li>
+    				<li>Linter / Prettier</li>
+    				<li>Yarn</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Backend Development
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Node / Express / SailJS</li>
+    				<li>Ruby / RoR</li>
+    				<li>Postgres / MongoDB</li>
+    				<li>Redis</li>
+    				<li>Serverless / Firebase</li>
+    				<li>Java / Spring Boot</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Devops
+    			</h3>
+    			 
+    			<div class="level beginner">
+    				<em>Beginner</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>AWS</li>
+    				<li>Digital Ocean</li>
+    				<li>Hasura</li>
+    				<li>Docker</li>
+    				<li>Linux / Bash</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Dec 2021</span>
+              <span class="endDate">- Current</span>
+            </div>
+            <div class="position">Senior Front-End Developer</div>
+            <div class="company">7peaksSoftware</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Thailand</span>
+           <div class="item" id="work-item">
+              <ul class="techs">
+                <li>React,</li>
+                <li>React Native EXPO/CLI</li>
+                <li>Typescript</li>
+                <li>JEST(React)</li>
+                <li>Nx MonoRepo</li>
+                <li>Strapi Headless CMS</li>
+                <li>Docker</li>
+                <li>Azure B2COauth2</li>
+                <li>GraphQL API</li>
+                <li>Hasura Service</li>
+                <li>Firebase</li>
+              </ul>
+            <ul class="highlights">
+              <li><p><p>Developed Dentist App with React Native for a new feature, improving customer adoption and retention to app by 25% using push notification and deep link (universal Linking) in App using Firebase.</p></p></li>
+              <li><p><p>Designed multiple dynamic and browser compatible page and customer components for internal company using Tailwind, Story book, React, and NX mono-repo.</p></p></li>
+              <li><p><p>Migrate old WordPress website from React+Strapi Headless CMS with GraphQL and using Git action CI/CD flow setup and deploy server, storage and CDN routing using AWS cloud service. Improving customer engagement and adoption by 10%.</p></p></li>
+              <li><p><p>Lead the development of a new mobile application using Expo React Native, resulting in a 50% increase of development time and cost effective for early startup. Implemented features to support all platform both web and mobile(android, iOS) such as Design, push-notification and analytics using firebase, B2C Azure Authentication and Hasura as a data sources.</p></p></li>
+              <li><p><p>Mentored and Supported developers on best practices for building and testing with Jest to cover all code bas using Snoar Cloud Platform.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Aug 2020</span>
+              <span class="endDate">- Oct 2021</span>
+            </div>
+            <div class="position">Front-End Team Lead</div>
+            <div class="company">Aya Innovation Lab</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Myanmar</span>
+           <div class="item" id="work-item">
+              <ul class="techs">
+                <li>React,</li>
+                <li>React Native CLI</li>
+                <li>Typescript</li>
+                <li>Docker</li>
+                <li>2C2P payment integration</li>
+                <li>NODE RED</li>
+                <li>Core Banking</li>
+                <li>AWS Cloud Service</li>
+                <li>Sail JS</li>
+                <li>ExpressJS</li>
+                <li>MongoDB</li>
+                <li>Firebase</li>
+              </ul>
+            <ul class="highlights">
+              <li><p><p>Lead Team of 5 engineer undertaking the software development of internal appointment management system to control and track covid-19 outbreak</p></p></li>
+              <li><p><p>Prioritized and delegated tasks to developer and third party vendor who integrate Aya Pay Payment Applications.</p></p></li>
+              <li><p><p>Mentor team members and provide technical guidance including code review, testing, and Continuous integration to ensure the quality and timeliness of deliverables.</p></p></li>
+              <li><p><p>Built innovative micro-services and Web Services Architecture(REST), Utilized React and Redux for state management in large-scale applications.</p></p></li>
+              <li><p><p>Engineered modern cloud infrastructure to store millions of client data points with full consideration for modern info-security.</p></p></li>
+              <li><p><p>Support Core Banking with testing and engineering process and ssisted in the debugging and troubleshooting of issues in production environments, Setup Monitoring daily API and Transaction Load with clock watch to notify the hight traffic load.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Jan 2019</span>
+              <span class="endDate">- Aug 2021</span>
+            </div>
+            <div class="position">Senior Software Engineer</div>
+            <div class="company">NexIdea AI Company</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Myanmar</span>
+           <div class="item" id="work-item">
+              <ul class="techs">
+                <li>React,</li>
+                <li>Java / Spring boot / Hibernate</li>
+                <li>Typescript</li>
+                <li>Docker</li>
+                <li>POSTGRE SQL</li>
+                <li>Red HAT Server</li>
+                <li>AWS Cloud Service</li>
+                <li>Angular 6</li>
+                <li>RESTFUL API development / documentation</li>
+              </ul>
+            <ul class="highlights">
+              <li><p><p>Learn and built an outstanding and dynamic team of software engineers and developers which significantly boosted the overall success of the organization.</p></p></li>
+              <li><p><p>Planned and engineered RESTful web services to manipulate dynamic datasets and Implemented new features and functionality using Spring and Hibernate</p></p></li>
+              <li><p><p>Experience in setup and testing local Payment Platform and build multi-transaction projects and collaborated with cross-functional teams to ensure project deliverables were met on time</p></p></li>
+              <li><p><p>Checked client code for bugs and weaknesses using test automation tools and improved code quantity and contributed to the design and development of a custom framework used by the company</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">Apr 2017</span>
+              <span class="endDate">- Aug 2018</span>
+            </div>
+            <div class="position">Software Engineer</div>
+            <div class="company">Comquas Company</div>
+          </header>
+    
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="location">Myanmar</span>
+           <div class="item" id="work-item">
+              <ul class="techs">
+                <li>React,</li>
+                <li>PHP / Laravel</li>
+                <li>Javascript</li>
+                <li>FIGMA</li>
+                <li>RESTFUL API development / documentation</li>
+                <li>JIRA</li>
+                <li>Code Automation with CYPRESS</li>
+                <li>Firebase</li>
+              </ul>
+            <ul class="highlights">
+              <li><p><p>Orchestrated Mahar Video Streaming project within strict timeframes and implements Mobile Payment flow with Local Operators by solving complex problems and working closely with senior leaders.</p></p></li>
+              <li><p><p>Developed and initiated Lodggy Hotel Booking projects, including managing costs, schedule, and communication with the Product owner and drove team success through shared vision and recognition of quality performance.</p></p></li>
+              <li><p><p>Collaborated with stockholders during the development process for ABC Payment Application and creative dynamic service rendering system at mobile application and reduce continue updating an application.</p></p></li>
+              <li><p><p>Implemented dynamics RESTFul API that handles App UI from the server-side. - Initiated and Implement third-party payment systems like 2C2P, MPU, and Strip International payment.</p></p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="work-item">
+    
+    
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">May 2014</span>
+              <span class="endDate">- Jan 2017</span>
+            </div>
+            <div class="position">Front-End Developer</div>
+            <div class="company">GoP Travel Tour Company</div>
+          </header>
+    
+           <div class="item" id="work-item">
+              <ul class="techs">
+                <li>Angular,</li>
+                <li>HTML / CSS3 / JQuery</li>
+                <li>Javascript</li>
+                <li>SKETCH / Adobe XD</li>
+                <li>Android Native Development</li>
+                <li>Firebase</li>
+              </ul>
+            <ul class="highlights">
+              <li><p><p>Collaborated with team members during development processes to confirm creative proposals and design best practices for Travel&amp;Tour solutions.</p></p></li>
+              <li><p><p>Took concepts and produced design mockups and prototypes to strengthen designs, enhance user experiences and improve site interactions.</p></p></li>
+              <li><p><p>Developed user-oriented visuals and features using front-end languages, including HTML, Angular and CSS, to increase site traffic and site performance under 3 seconds and analysis and measurable SEO best practice.</p></p></li>
+              <li><p><p>Crafted SEO strategy and intuitive interface for GoP tour site to achieve prominent rankings across top browser platforms, including Google and Facebook pixels.</p></p></li>
+              <li><p><p>Utilized comprehensive knowledge of the mobile landscape, emerging technologies, and innovations to remain on cutting edge of the Android market.</p></p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2013
+              </span>
+              <span class="endDate">
+              - 2016
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelors in
+              </div>
+              <div class="area">
+                Mathematics
+              </div>
+              <div class="institution">
+                The University of East Yangon
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header class="clear">
+            <div class="date">
+              <span class="startDate">
+              2010
+              </span>
+              <span class="endDate">
+              - 2012
+              </span>
+            </div>
+            <div class="header-left">
+              <div class="studyType">
+                Diploma in
+              </div>
+              <div class="area">
+                Information Technology
+              </div>
+              <div class="institution">
+                KMD
+              </div>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+      <section class="section">
+        <header>
+          <h2 class="section-title">Awards</h2>
+        </header>
+        <section id="awards">
+            <section class="award-item">
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Firebase Hackathon
+                    </div>
+                    <div class="awarder">
+                      Participant
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+              </div>
+            </section>
+            <section class="award-item">
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      WaveMoney Mobile Hackathon
+                    </div>
+                    <div class="awarder">
+                      First Prize Winner
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+              </div>
+            </section>
+            <section class="award-item">
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      Telenor Accelerator Program
+                    </div>
+                    <div class="awarder">
+                      Winner
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+              </div>
+            </section>
+            <section class="award-item">
+    
+              <header class="clear">
+                <div class="header-left">
+                    <div class="title">
+                      KOICA Entrepreneurship 
+                    </div>
+                    <div class="awarder">
+                      Winner
+                    </div>
+                </div>
+              </header>
+    
+              <div class="item">
+              </div>
+            </section>
+        </section>
+      </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Reading / Writing
+          </h3>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Open Source
+          </h3>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>References</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;Nyan is an effective leader and a natural mentor. They have managed and led 3 projects, including Aya Payment system as Lead Engineer Role, and have consistently motivated and guided their team members to deliver their best work. Nyan possess a great ability to work with other departments, including design and project management, and have the ability to find a balance between meeting the client&#x27;s needs and maintaining high development standards.I highly recommend Nyan for the position of Front-end Team Lead and I am confident that they will continue to make a significant contribution to the success of any organization they work with.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Aung Sithu Kyaw, Project Owner, Aya Bank&#x27;s Innovation Lab
+          </div>
+        </div>
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;Nyan has been a valuable member of the software development team at NexIdea AI, and I am confident that they would make an excellent Senior Software Engineer.With 5 years of experience in the industry, Nyan has developed a strong skill set in technologies such as Java, Spring Boot and Javascript. They have worked on a diverse range of projects, including Luggage Managment Platform as Senior Software Engineer, and have demonstrated a capacity to deliver high-quality work on time and within budget. He is a phenomenal hacker and a true team player. Highly recommended!&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Paing Soe Aung, NexIdea, AI.
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
